@@ -1,0 +1,53 @@
+tbody tr td {
+    color: #526D82;
+    border-color: #526D82;
+}
+
+caption{
+    padding: 3rem;
+}
+body {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    border: 0.5px solid black;
+}
+
+.buttons {
+    margin: 3rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.buttons button {
+    width: 9rem;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 8px;
+    margin: 1rem;
+    border: none;
+    background-color: #526D82;
+}
+
+.buttons button:hover {
+    opacity: 0.7;
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+#sudoku-board {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
